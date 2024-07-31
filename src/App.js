@@ -14,19 +14,19 @@ function App() {
           <div>
               <nav className="nav-bar">
                   <ul>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/about">About</Link></li>
-                      <li><Link to="/projects">Projects</Link></li>
-                      <li><Link to="/experience">Experience</Link></li>
-                      <li><Link to="/contact">Contact</Link></li>
+                      <li><Link to="/official-website">Home</Link></li>
+                      <li><Link to="/official-website/about">About</Link></li>
+                      <li><Link to="/official-website/projects">Projects</Link></li>
+                      <li><Link to="/official-website/experience">Experience</Link></li>
+                      <li><Link to="/official-website/contact">Contact</Link></li>
                   </ul>
               </nav>
               <Routes>
-              <Route path="/" element={<HomePage />} />
-                  <Route path="/about" element={<AboutPage />} />
-                  <Route path="/projects" element={<ProjectsPage />} />
-                  <Route path="/experience" element={<ExperiencePage />} />
-                  <Route path="/contact" element={<ContactPage />} />
+              <Route path="/official-website" element={<HomePage />} />
+                  <Route path="/official-website/about" element={<AboutPage />} />
+                  <Route path="/official-website/projects" element={<ProjectsPage />} />
+                  <Route path="/official-website/experience" element={<ExperiencePage />} />
+                  <Route path="/official-website/contact" element={<ContactPage />} />
               </Routes>
           </div>
       </Router>
