@@ -1,0 +1,182 @@
+
+.circle {
+    z-index: 0;
+    position: fixed; /* Position it relative to the viewport */
+    bottom: -45px; /* Center it horizontally */
+    right: -45px; /* Space above the image */
+    width: 100px; /* Initial width */
+    height: 100px; /* Initial height */
+    background-color: #f3f2f5; /* Circle color */
+    border-radius: 50%; /* Make it a circle */
+    animation: increaseCircleSize 1.2s ease-in-out forwards; /* Animation to increase size */
+}
+
+/* Define the size increase animation */
+@keyframes increaseCircleSize {
+    0% {
+        transform: scale(0.1); /* Start at original size */
+    }
+    100% {
+        transform: scale(31.2); /* Increase size to 150% */
+    }
+}
+
+.circle-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.little-circle {
+    z-index: 1;
+    position: fixed; /* Position it relative to the viewport */
+    bottom: 1200px; /* Center it horizontally */
+    right: -45px; /* Space above the image */
+    width: 300px; /* Initial width */
+    height: 300px; /* Initial height */
+    background-color: #e8e4f7; /* Circle color */
+    border-radius: 50%; /* Make it a circle */
+    transform-origin: 200px 1470px;
+    animation: reverseRotation 10s linear infinite;
+}
+
+@keyframes reverseRotation {
+    0% {
+        transform: rotate(0deg); /* Start rotation */
+    }
+    100% {
+        transform: rotate(-360deg); /* Complete rotation */
+    }
+}
+
+.profile-picture {
+    position: absolute; /* Set button to absolute */
+    max-width: 150px; /* Set a max width */
+    height: auto; /* Maintain aspect ratio */
+    left: 21%; /* Center it horizontally */
+    margin-top: 60px; /* Space above the image */
+    border-radius: 100%; /* Optional: add rounded corners */
+    border: 5px solid #9d97ad; /* Change color and thickness of the border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.profile-picture:hover {
+    border: 5px solid #bebad1;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg); /* Start rotation */
+    }
+    100% {
+        transform: rotate(360deg); /* Complete rotation */
+    }
+}
+
+.home-page {
+    background-color: #e3dff0; /* Set your desired color here */
+    height: 806px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+.home-page h1 {
+    font-size: 50px; /* Change this value to adjust the header size */
+}
+
+.rectangle-header-home {
+    margin-top: 20px; /* Adjust as needed */
+    margin-left: 200px;
+
+    background-color: #d3cfe3; /* Background color (white with some transparency) */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Space around the text */
+    display: inline-block; /* Fit the rectangle to the content */
+
+    /* Add border styles */
+    border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+    z-index: 2;
+    position: relative; /* Allow z-index to take effect */
+}
+
+.text-container {
+    text-align: center; /* Center align text */
+    z-index: 2;
+}
+
+.element-container {
+    display: flex;
+    align-items: center; /* Center vertically within the container */
+    gap: 20px; /* Space between elements */
+}
+
+.button {
+    background-color: #b7b2cf; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px 40px; /* Padding for the button */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Cursor change on hover */
+    text-decoration: none; /* Remove underline */
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.button:hover {
+    background-color: #9e9ab3; /* Darker shade on hover */
+    animation: increaseButtonSize 0.1s ease-in forwards;
+}
+
+@keyframes increaseButtonSize {
+    0% {
+        transform: scale(1); /* Start at original size */
+    }
+    100% {
+        transform: scale(1.1); /* Increase size to 150% */
+    }
+}
+
+.buttons-top {
+    margin-top: 100px; /* Adjust this value to move it down */
+}
+
+.github-button {
+    position: absolute; /* Set button to absolute */
+    left: 20%;
+}
+
+.about-button {
+    position: absolute; /* Set button to absolute */
+    left: 42%; /* Center it horizontally */
+}
+
+.linkedin-button {
+    position: absolute; /* Set button to absolute */
+    left: 64%;
+}
+
+.buttons-bottom {
+    margin-top: 250px; /* Adjust this value to move it down */
+}
+
+.projects-button {
+    position: absolute; /* Set button to absolute */
+    left: 20%; /* Center it horizontally */
+}
+
+.experience-button {
+    position: absolute; /* Set button to absolute */
+    left: 42%; /* Center it horizontally */
+}
+
+.contact-button {
+    position: absolute; /* Set button to absolute */
+    left: 64%; /* Center it horizontally */
+}

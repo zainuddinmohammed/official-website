@@ -2,6 +2,8 @@
 .nav-bar {
   background-color: #9d97ad; /* Set your desired color here */
   padding: 10px; /* Optional: add some padding */
+  z-index: 2;
+  position: relative; /* Allow z-index to take effect */
 }
 
 .nav-bar ul {

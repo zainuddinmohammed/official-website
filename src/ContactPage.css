@@ -1,0 +1,90 @@
+.contact-page {
+    background-color: #e3dff0; /* Set your desired color here */
+    height: 806px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-page h1 {
+    font-size: 50px; /* Change this value to adjust the header size */
+}
+
+.contact-page p {
+    font-size: 20px; /* Change this value to adjust the header size */
+}
+
+.rectangle-header {
+    margin-top: 20px; /* Adjust as needed */
+    margin-left: 0;
+
+    background-color: #d3cfe3; /* Background color (white with some transparency) */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Space around the text */
+    display: inline-block; /* Fit the rectangle to the content */
+
+    /* Add border styles */
+    border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+    position: relative; /* Allow z-index to take effect */
+}
+
+.text-container {
+}
+
+.sentence {
+    margin-top: 250px; /* Adjust as needed */
+    margin-left: -397px;
+
+    background-color: #d3cfe3; /* Background color (white with some transparency) */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px; /* Space around the text */
+    display: inline-block; /* Fit the rectangle to the content */
+
+    /* Add border styles */
+    border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+    position: absolute;
+}
+
+.email {
+    margin-top: 550px; /* Adjust as needed */
+    margin-left: -310px;
+
+    font-size: 15px;
+
+    background-color: #d3cfe3; /* Background color (white with some transparency) */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px; /* Space around the text */
+    display: inline-block; /* Fit the rectangle to the content */
+
+    /* Add border styles */
+    border: 5px solid #d3cfe3; /* Change this value to set your desired border color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+    position: absolute;
+}
+
+.envelope {
+    position: absolute; /* Set button to absolute */
+    max-width: 150px; /* Set a max width */
+    height: auto; /* Maintain aspect ratio */
+    left: 777px; /* Center it horizontally */
+    margin-top: 400px; /* Space above the image */
+    border-radius: 10%; /* Optional: add rounded corners */
+    border: 5px solid #9d97ad; /* Change color and thickness of the border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.envelope:hover {
+    border: 5px solid #bebad1;
+    animation: increaseEnvelopeSize 0.1s ease-in-out forwards;
+}
+
+@keyframes increaseEnvelopeSize {
+    0% {
+        transform: scale(1); /* Start at original size */
+    }
+    100% {
+        transform: scale(1.1); /* Increase size to 150% */
+    }
+}
