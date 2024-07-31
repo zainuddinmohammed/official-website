@@ -14,7 +14,7 @@ function HomePage() {
             circle.className = 'little-circle';
             circle.style.animationDelay = `${delay}s`;
             container.appendChild(circle);
-            delay += 1; // Add 1-second delay for each circle
+            delay += 1; // Add 1 second delay for each circle
         }
     }, []);
 
