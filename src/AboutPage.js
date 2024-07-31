@@ -5,7 +5,7 @@ function ContactPage() {
     return (
         <div>
             <h1>About Me</h1>
-            <p>lorem ipsum skibidi toilet.</p>
+            <p>lorem ipsum.</p>
         </div>
     );
 }

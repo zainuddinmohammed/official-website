@@ -5,7 +5,7 @@ function ExperiencePage() {
     return (
         <div>
             <h1>Work Experience</h1>
-            <p>lorem ipsum skibidi toilet.</p>
+            <p>lorem ipsum.</p>
         </div>
     );
 }
