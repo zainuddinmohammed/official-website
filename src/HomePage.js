@@ -33,7 +33,7 @@ function HomePage() {
 
             <div className="buttons-top">
 
-                <Link to="/website/about" className="button about-button">
+                <Link to="/about" className="button about-button">
                     About Me
                 </Link>
 
@@ -51,15 +51,15 @@ function HomePage() {
 
             <div className="buttons-bottom">
 
-                <Link to="/website/projects" className="button projects-button">
+                <Link to="/projects" className="button projects-button">
                     Projects Portfolio
                 </Link>
 
-                <Link to="/website/experience" className="button experience-button">
+                <Link to="/experience" className="button experience-button">
                     Work Experience
                 </Link>
 
-                <Link to="/website/contact" className="button contact-button">
+                <Link to="/contact" className="button contact-button">
                     Contact Me
                 </Link>
 
