@@ -2,6 +2,7 @@
 import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
+import './buttons.css';
 import pfp from './images/pfp.jpg'; // Import the image
 
 function HomePage() {

@@ -6,6 +6,9 @@ import HomePage from './HomePage';
 import ContactPage from './ContactPage';
 import AboutPage from "./AboutPage";
 import ProjectsPage from './ProjectsPage';
+    import CalculatorPage from './CalculatorPage';
+    import ModPage from './ModPage';
+    import MicrobitPage from './MicrobitPage';
 import ExperiencePage from "./ExperiencePage";
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
               <Route path="/website/" element={<HomePage />} />
                   <Route path="/website/about" element={<AboutPage />} />
                   <Route path="/website/projects" element={<ProjectsPage />} />
+                        <Route path="/website/projects/calculator-application" element={<CalculatorPage />} />
+                        <Route path="/website/projects/minecraft-mod" element={<ModPage />} />
+                        <Route path="/website/projects/bbc-microbit" element={<MicrobitPage />} />
                   <Route path="/website/experience" element={<ExperiencePage />} />
                   <Route path="/website/contact" element={<ContactPage />} />
               </Routes>

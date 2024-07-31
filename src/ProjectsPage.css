@@ -1,0 +1,18 @@
+.project-buttons {
+    margin-top: 100px; /* Adjust this value to move it down */
+}
+
+.calculator-button {
+    position: absolute; /* Set button to absolute */
+    left: 20%;
+}
+
+.mod-button {
+    position: absolute; /* Set button to absolute */
+    left: 42%; /* Center it horizontally */
+}
+
+.microbit-button {
+    position: absolute; /* Set button to absolute */
+    left: 64%;
+}

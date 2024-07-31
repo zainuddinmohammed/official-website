@@ -1,11 +1,13 @@
 
 import React from 'react';
 import './ContactPage.css';
+import './SubPage.css';
 import envelope from './images/envelope_icon.png';
+import {Link} from "react-router-dom";
 
 function ContactPage() {
     return (
-        <div className="contact-page">
+        <div className="sub-page">
 
             <div className="rectangle-header">
                 <div className="text-container">
@@ -24,6 +26,10 @@ function ContactPage() {
             <div className="email">
                 zainuddin.mohammed235@gmail.com
             </div>
+
+            <Link to="/website" className="button back-to-page">
+                Back to Home
+            </Link>
 
         </div>
 );

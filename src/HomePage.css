@@ -115,34 +115,6 @@
     gap: 20px; /* Space between elements */
 }
 
-.button {
-    background-color: #b7b2cf; /* Set the background color */
-    color: white; /* Set the text color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 20px 40px; /* Padding for the button */
-    font-size: 20px; /* Font size */
-    cursor: pointer; /* Cursor change on hover */
-    text-decoration: none; /* Remove underline */
-    width: 200px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-}
-
-.button:hover {
-    background-color: #9e9ab3; /* Darker shade on hover */
-    animation: increaseButtonSize 0.1s ease-in forwards;
-}
-
-@keyframes increaseButtonSize {
-    0% {
-        transform: scale(1); /* Start at original size */
-    }
-    100% {
-        transform: scale(1.1); /* Increase size to 150% */
-    }
-}
-
 .buttons-top {
     margin-top: 100px; /* Adjust this value to move it down */
 }
