@@ -1,0 +1,33 @@
+.profile-picture {
+    position: absolute; /* Set button to absolute */
+    max-width: 150px; /* Set a max width */
+    height: auto; /* Maintain aspect ratio */
+    left: 21%; /* Center it horizontally */
+    margin-top: 60px; /* Space above the image */
+    border-radius: 100%; /* Optional: add rounded corners */
+    border: 5px solid #9d97ad; /* Change color and thickness of the border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-picture:hover {
+    border: 5px solid #bebad1;
+    animation: rotate 5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0px) rotate(0deg); /* Start rotation */
+    }
+    25% {
+
+    }
+    50% {
+        transform: translateX(10px) rotate(180deg);
+    }
+    75% {
+
+    }
+    100% {
+        transform: translateX(0px) rotate(360deg); /* Complete rotation */
+    }
+}

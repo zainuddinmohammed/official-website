@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21f83626-cb51-468a-8059-7a0aeb2f7952" name="Changes" comment="Animated home page, contact page complete">
+      <change beforePath="$PROJECT_DIR$/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.3f0a077d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.3f0a077d.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/453.56f46472.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/453.56f46472.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.69f2f055.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.69f2f055.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.69f2f055.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/envelope_icon.26bd14a763da236fd153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/pfp.c3e052e8c5d6468dc303.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zainuddinmohammed&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zainuddinmohammed/official-website-code.git&quot;,
+    &quot;accountId&quot;: &quot;c178794b-7bc3-46ba-bedc-9bce3bc4a40e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2jyTTAQYUGEI5vmSfISMOnD1Bfs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zainz/Documents/Webstorm/official_website/src/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\src\images" />
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\src" />
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\public\images" />
+      <recent name="C:\Users\zainz\WebstormProjects\test\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\src\images" />
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\public" />
+      <recent name="C:\Users\zainz\Documents\Webstorm\official_website\src" />
+      <recent name="C:\Users\zainz\WebstormProjects\test\public\images" />
+      <recent name="C:\Users\zainz\WebstormProjects\test\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f83626-cb51-468a-8059-7a0aeb2f7952" name="Changes" comment="" />
+      <created>1722358322260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722358322260</updated>
+      <workItem from="1722358323230" duration="188000" />
+      <workItem from="1722358522663" duration="8667000" />
+      <workItem from="1722368630479" duration="19028000" />
+    </task>
+    <task id="LOCAL-00001" summary="Completed basic home page">
+      <option name="closed" value="true" />
+      <created>1722371184370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722371184370</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Animated home page, contact page complete">
+      <option name="closed" value="true" />
+      <created>1722391049861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722391049862</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Animated home page, contact page complete">
+      <option name="closed" value="true" />
+      <created>1722404288077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722404288078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed basic home page" />
+    <MESSAGE value="Animated home page, contact page complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animated home page, contact page complete" />
+  </component>
+</project>
