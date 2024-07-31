@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21f83626-cb51-468a-8059-7a0aeb2f7952" name="Changes" comment="Website uploading">
+    <list default="true" id="21f83626-cb51-468a-8059-7a0aeb2f7952" name="Changes" comment="Finished base website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExperiencePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExperiencePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProjectsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,7 @@
       <workItem from="1722358522663" duration="8667000" />
       <workItem from="1722368630479" duration="19028000" />
       <workItem from="1722404622359" duration="2456000" />
-      <workItem from="1722407169050" duration="15076000" />
+      <workItem from="1722407169050" duration="15267000" />
     </task>
     <task id="LOCAL-00001" summary="Completed basic home page">
       <option name="closed" value="true" />
@@ -220,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722410979533</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished base website">
+      <option name="closed" value="true" />
+      <created>1722458988728</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722458988728</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished base website">
+      <option name="closed" value="true" />
+      <created>1722459002688</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459002688</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +237,7 @@
     <MESSAGE value="Completed basic home page" />
     <MESSAGE value="Animated home page, contact page complete" />
     <MESSAGE value="Website uploading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website uploading" />
+    <MESSAGE value="Finished base website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished base website" />
   </component>
 </project>
