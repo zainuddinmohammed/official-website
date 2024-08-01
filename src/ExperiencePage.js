@@ -2,12 +2,17 @@
 import React from 'react';
 import './ExperiencePage.css'
 import './SubPage.css'
+import './buttons.css'
 import {Link} from "react-router-dom";
 
 function ExperiencePage() {
     return (
 
         <div className="sub-page">
+
+            <Link to="/website" className="button back-to-page">
+                Back to Home
+            </Link>
 
             <div className="rectangle-header">
                 <div className="text-container">
@@ -24,10 +29,6 @@ function ExperiencePage() {
                     !
                 </p>
             </div>
-
-            <Link to="/website" className="button back-to-page">
-                Back to Home
-            </Link>
 
         </div>
 

@@ -23,13 +23,17 @@ function HomePage() {
 
         <div className="home-page">
 
-            <img src={pfp} alt="profile" className="profile-picture"/>
+            <div className="pfp-header-wrap">
 
-            <div className="rectangle-header-home">
-                <div className="text-container">
-                    <h1>Hi, I'm Zainuddin Mohammed!</h1>
-                    <p>Welcome to my website!</p>
+                <img src={pfp} alt="profile" className="profile-picture"/>
+
+                <div className="rectangle-header-home">
+                    <div className="text-container">
+                        <h1>Hi, I'm Zainuddin Mohammed!</h1>
+                        <p>Welcome to my website!</p>
+                    </div>
                 </div>
+
             </div>
 
             <div className="buttons-top">

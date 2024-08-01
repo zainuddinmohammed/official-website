@@ -24,7 +24,7 @@ function AboutPage() {
                 contact information, and links/documents.<br/><br/>
                 In my free time, I like to play video games, take pictures, and scooter around my college campus.
                 Most of all, though, I love to implement computer science in whatever I like to do.<br/><br/>
-                Access my contact information using the navigation bar above.<br/>I'm excited to start working with you!
+                Access my contact information using the navigation bar above.<br/>I am excited to start working with you!
             </div>
 
             <Link to="/website" className="button back-to-page">

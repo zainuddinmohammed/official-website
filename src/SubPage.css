@@ -8,7 +8,7 @@
 }
 
 .sub-page h1 {
-    font-size: 50px; /* Change this value to adjust the header size */
+    font-size: 6vh; /* Change this value to adjust the header size */
 }
 
 .sub-page p {
@@ -17,41 +17,32 @@
 
 .rectangle-header {
     margin-top: -20px; /* Adjust as needed */
-
     background-color: #d3cfe3; /* Background color (white with some transparency) */
     border-radius: 15px; /* Rounded corners */
     padding: 10px; /* Space around the text */
     display: inline-block; /* Fit the rectangle to the content */
-
-    /* Add border styles */
     border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
     position: relative; /* Allow z-index to take effect */
 }
 
-.text-container {
-}
+.text-container {}
 
 .sentence {
     margin-top: 190px; /* Adjust as needed */
-
     background-color: #d3cfe3; /* Background color (white with some transparency) */
     border-radius: 15px; /* Rounded corners */
     padding: 5px; /* Space around the text */
     display: inline-block; /* Fit the rectangle to the content */
-
-    /* Add border styles */
     border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
     position: absolute;
-
     left: 50%; /* Move to the middle of the parent */
     transform: translateX(-50%); /* Translate back by 50% of its own width */
-
 }
 
 .back-to-page {
     position: absolute; /* Set button to absolute */
-    left: 42%; /* Center it horizontally */
-    margin-top: 700px;
+    left: 50%; /* Center horizontally */
+    top: 700px; /* Adjust vertical position as needed */
 }

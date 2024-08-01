@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="21f83626-cb51-468a-8059-7a0aeb2f7952" name="Changes" comment="Finished base website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExperiencePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExperiencePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +120,7 @@
       <workItem from="1722358522663" duration="8667000" />
       <workItem from="1722368630479" duration="19028000" />
       <workItem from="1722404622359" duration="2456000" />
-      <workItem from="1722407169050" duration="15267000" />
+      <workItem from="1722407169050" duration="25311000" />
     </task>
     <task id="LOCAL-00001" summary="Completed basic home page">
       <option name="closed" value="true" />
@@ -227,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722459002688</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished base website">
+      <option name="closed" value="true" />
+      <created>1722459149466</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722459149466</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

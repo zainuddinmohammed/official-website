@@ -49,11 +49,30 @@
     }
 }
 
+.home-page {
+    background-color: #e3dff0; /* Set your desired color here */
+    height: 806px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+.home-page h1 {
+    font-size: 50px; /* Change this value to adjust the header size */
+}
+
+.pfp-header-wrap {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px; /* Add some margin */
+}
+
 .profile-picture {
-    position: absolute; /* Set button to absolute */
     max-width: 150px; /* Set a max width */
     height: auto; /* Maintain aspect ratio */
-    left: 21%; /* Center it horizontally */
     margin-top: 60px; /* Space above the image */
     border-radius: 100%; /* Optional: add rounded corners */
     border: 5px solid #9d97ad; /* Change color and thickness of the border */
@@ -75,22 +94,9 @@
     }
 }
 
-.home-page {
-    background-color: #e3dff0; /* Set your desired color here */
-    height: 806px;
-    color: black;
-    text-align: center;
-    padding-top: 50px;
-    z-index: 2;
-}
-
-.home-page h1 {
-    font-size: 50px; /* Change this value to adjust the header size */
-}
-
 .rectangle-header-home {
     margin-top: 20px; /* Adjust as needed */
-    margin-left: 200px;
+    margin-left: 40px;
 
     background-color: #d3cfe3; /* Background color (white with some transparency) */
     border-radius: 15px; /* Rounded corners */
@@ -121,17 +127,17 @@
 
 .github-button {
     position: absolute; /* Set button to absolute */
-    left: 20%;
+    left: 25%;
 }
 
 .about-button {
     position: absolute; /* Set button to absolute */
-    left: 42%; /* Center it horizontally */
+    left: 50%; /* Center it horizontally */
 }
 
 .linkedin-button {
     position: absolute; /* Set button to absolute */
-    left: 64%;
+    left: 75%;
 }
 
 .buttons-bottom {
@@ -140,15 +146,15 @@
 
 .projects-button {
     position: absolute; /* Set button to absolute */
-    left: 20%; /* Center it horizontally */
+    left: 25%; /* Center it horizontally */
 }
 
 .experience-button {
     position: absolute; /* Set button to absolute */
-    left: 42%; /* Center it horizontally */
+    left: 50%; /* Center it horizontally */
 }
 
 .contact-button {
     position: absolute; /* Set button to absolute */
-    left: 64%; /* Center it horizontally */
+    left: 75%; /* Center it horizontally */
 }

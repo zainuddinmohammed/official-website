@@ -11,9 +11,9 @@
     /* Add border styles */
     border: 10px solid #d3cfe3; /* Change this value to set your desired border color */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
-    position: absolute;
+    position: relative;
 
-    max-width: 1200px; /* Set maximum width for the text container */
+    max-width: 90vw; /* Set maximum width for the text container */
     font-size: 20px; /* Set your desired font size */
     line-height: 1.5; /* Adjust line height for readability */
 
